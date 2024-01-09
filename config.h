@@ -36,8 +36,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYER_STATE_8BIT
 
 #define DEBOUNCE 3
-#define MATRIX_IO_DELAY 20
-#define QMK_KEYS_PER_SCAN 10
+#define MATRIX_IO_DELAY 10 /* This is measured in microseconds (smaller than miliseconds)*/
+#define QMK_KEYS_PER_SCAN 12
 #define USB_POLLING_INTERVAL_MS 1
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 
