@@ -40,11 +40,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define QMK_KEYS_PER_SCAN 12
 #define USB_POLLING_INTERVAL_MS 1
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
-
-/* 
-
-Some information for why I chose the 1mhz clock speed
-
-~ http://tinyurl.com/stm32mhzkhz
-
-*/
