@@ -25,5 +25,4 @@ MOUSE_SHARED_EP = no # The digital mouse doesn't need to share a pin with NKRO w
 DEBOUNCE_TYPE = sym_eager_pk # Around a 5ms decrease in latency over the default
 
 SPACE_CADET_ENABLE = no
-GRAVE_ESC_ENABLE = no 
 MAGIC_ENABLE = no
