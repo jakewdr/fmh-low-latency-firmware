@@ -37,6 +37,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DEBOUNCE 2 /* Tune this depending on switch type */
 #define MATRIX_IO_DELAY 10 /* This is measured in microseconds (smaller than miliseconds) */
-#define QMK_KEYS_PER_SCAN 10 /* If you are pressing more than 12 keys at once are you real? */
+#define QMK_KEYS_PER_SCAN 10 /* If you are pressing more than 10 keys at once are you real? */
 #define USB_POLLING_INTERVAL_MS 1 /* 1000hz polling rate */
 #define RGB_DISABLE_WHEN_USB_SUSPENDED /* Useless */
