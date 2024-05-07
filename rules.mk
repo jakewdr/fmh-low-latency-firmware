@@ -3,16 +3,16 @@
 
 NKRO_ENABLE = yes          # Enable N-Key Rollover
 BOOTMAGIC_ENABLE = yes     # Enable Bootmagic Lite bootloader (so useful!)
-LTO_ENABLE = yes		   # Enables link time optimizations for small compile size
+LTO_ENABLE = yes		       # Enables link time optimizations for small compile size
 
 MOUSEKEY_ENABLE = no       # Mouse keys
 CONSOLE_ENABLE = no        # Console for debug
 EXTRAKEY_ENABLE = no       # Audio control and System control
 
 AUDIO_ENABLE = no          # Audio output
-ENCODER_ENABLE = no		   # Enables rotary encoders
+ENCODER_ENABLE = no		     # Enables rotary encoders
 RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
-SPLIT_KEYBOARD = no		   # Enables split keyboard options
+SPLIT_KEYBOARD = no		     # Enables split keyboard options
 COMMAND_ENABLE = no        # Commands for debug and configuration
 BACKLIGHT_ENABLE = no      # Enables keyboard backlight functionality
 
