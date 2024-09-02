@@ -21,8 +21,8 @@ BLUETOOTH_ENABLE = no # Also fuck no
 RING_BUFFERED_6KRO_REPORT_ENABLE = no # I prefer NKRO
 COMMAND_ENABLE = no # Debugging isn't needed when the keyboard works
 MOUSE_SHARED_EP = no # The digital mouse doesn't need to share a pin with NKRO when it is disabled
-
-DEBOUNCE_TYPE = asym_eager_defer_pk # Around a 5ms decrease in latency over the default
-
 SPACE_CADET_ENABLE = no
 MAGIC_ENABLE = no
+
+DEBOUNCE_TYPE = asym_eager_defer_pk
+EEPROM_DRIVER = i2c
