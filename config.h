@@ -30,8 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define LAYER_STATE_8BIT      
 
-#define DEBOUNCE 2
-#define MATRIX_IO_DELAY 2
+#define DEBOUNCE 3
+#define MATRIX_IO_DELAY 3
 #define QMK_KEYS_PER_SCAN 10
 #define USB_POLLING_INTERVAL_MS 1
 #define GPIO_INPUT_PIN_DELAY 0
