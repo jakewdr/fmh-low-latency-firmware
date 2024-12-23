@@ -26,3 +26,4 @@ MAGIC_ENABLE = no
 
 DEBOUNCE_TYPE = asym_eager_defer_pk
 EEPROM_DRIVER = i2c
+OPT = 2
